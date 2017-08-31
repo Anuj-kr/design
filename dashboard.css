@@ -1,0 +1,126 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+#container{
+	width: 100%;
+	height:645px;
+	/*border: 1px solid green;*/
+}
+
+#header{
+	width: 100%;
+	height: 70px;
+	background-color:#24292e; 
+}
+
+#content-wrapper{
+	width: 100%;
+	height: 575px;
+	/*border: 2px solid red;*/
+	/*padding-top:60px;*/
+	background: url('back.jpg');
+
+}
+#content-container{
+	width: 100%;
+	height: 575px;
+	padding-top:70px;
+	background-color: rgba(0,0,0,0.9);
+
+}
+#content{
+	width:80%;
+	height:300px;
+	/*border: 1px solid red;*/
+	margin:0px auto 0px auto;
+	/*background-color: rgba(0,0,0,0.7);*/
+}
+.content-category{
+	position: relative;
+	width:250px;
+	height: 100%;
+	/*border: 1px solid rgba(8,22,37,.12) rgba(8,22,37,.14) rgba(8,22,37,.16);*/
+	border: 1px solid #CCCCCC;
+	margin-right: 20px;
+	display: block;
+	float: left;
+	box-shadow: 0px 1px 1px 0px #c1c1c1;
+	border-top: 5px solid #1ABC9C;
+	/*background-color: rgba(0,0,0,0.8); */
+	background-color: #1c2026;
+	/*background: url('a.jpg');*/
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 20px solid #1ABC9C;
+}
+.content-category:hover{
+	tablet.color: red;
+}
+/*.overlay{
+	position: relative;
+	top: 0;
+	left: 0;
+	width:100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7); 
+
+}*/
+p{
+	margin-top:10px;
+	position: relative;
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	text-transform: uppercase;
+	color:#fff;
+	font-weight: 250;
+	text-align: center;
+}
+.fa{
+	color:white;
+}
+#tablet{
+	text-align: center;
+	font-size: 50px;
+	margin: 30px 0 20px 80px;
+	width:90px;
+	height:90px;
+	border: 2px solid #1ABC9C;
+	border-radius: 50px;
+	padding-top:20px;
+}
+#feedback{
+	text-align: center;
+	font-size: 50px;
+	margin: 30px 0 20px 80px;
+	width:90px;
+	height:90px;
+	border: 2px solid #1ABC9C;
+	border-radius: 50px;
+	padding-top:15px;
+}
+#comp_reg{
+	text-align: center;
+	font-size: 50px;
+	margin: 30px 0 20px 80px;
+	width:90px;
+	height:90px;
+	border: 2px solid #1ABC9C;
+	border-radius: 50px;
+	padding-top:15px;
+}
+#comp_status{
+	text-align: center;
+	font-size: 40px;
+	margin: 30px 0 20px 80px;
+	width:90px;
+	height:90px;
+	border: 2px solid #1ABC9C;
+	border-radius: 50px;
+	padding:22px 0 0 2px;
+}
+#comp_status:hover,#comp_reg:hover{
+	color:red;
+}
